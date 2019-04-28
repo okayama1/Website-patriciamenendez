@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demo on Patricia Meneéndez</title>
+    <link>/categories/demo/</link>
+    <description>Recent content in Demo on Patricia Meneéndez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/demo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Story&#39;s Image Formatting Controls</title>
+      <link>/images/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/images/</guid>
+      <description>&lt;p&gt;This article is a demo of Story&amp;rsquo;s image-related features (other than &lt;a href=&#34;/figures&#34;&gt;figure captions&lt;/a&gt;).
+Story can apply a variety of stylistic and layout transformations to your images.
+These features are enabled by unobtrusive, accessibility-friendly tricks that give you more control over images than Markdown typically provides.
+Story also has out-of-the-box support for header and preview images, for a visually stunning site.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

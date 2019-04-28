@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Archives on Testing</title>
+    <link>/archives/</link>
+    <description>Recent content in Archives on Testing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/archives/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Future Talk</title>
+      <link>/blog/a-future-talk/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/a-future-talk/</guid>
+      <description>&lt;p&gt;Story&amp;rsquo;s talks pages can highlight upcoming appearances, promoting your talks
+before you present. This is a dummy page illustrating this capability.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll have to add &lt;code&gt;buildFuture: true&lt;/code&gt; to your site&amp;rsquo;s &lt;code&gt;config.yaml&lt;/code&gt; to enable
+this setting.  Talks pages that are in the future won&amp;rsquo;t appear on the homepage
+or in your RSS feeds; they&amp;rsquo;ll only appear in the &lt;code&gt;/talks/&lt;/code&gt; list page of your
+site.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Story&#39;s Image Formatting Controls</title>
+      <link>/images/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/images/</guid>
+      <description>&lt;p&gt;This article is a demo of Story&amp;rsquo;s image-related features (other than &lt;a href=&#34;/figures&#34;&gt;figure captions&lt;/a&gt;).
+Story can apply a variety of stylistic and layout transformations to your images.
+These features are enabled by unobtrusive, accessibility-friendly tricks that give you more control over images than Markdown typically provides.
+Story also has out-of-the-box support for header and preview images, for a visually stunning site.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Creating Beautiful Presentations with Story</title>
+      <link>/blog/adirondack/</link>
+      <pubDate>Tue, 08 May 2018 16:00:00 -0500</pubDate>
+      
+      <guid>/blog/adirondack/</guid>
+      <description>&lt;p&gt;This is a &amp;ldquo;talk&amp;rdquo; page in Story, which is the permanent homepage for a talk
+you&amp;rsquo;ve given at a specific event. It&amp;rsquo;s designed to showcase your appearance by
+bringing together information about the event, along with your slides and extra
+information like a video of your talk. In this way you can build a portfolio of
+your speaking history.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Creating Beautiful Presentations with Story</title>
+      <link>/slides/adirondack/</link>
+      <pubDate>Wed, 25 Apr 2018 09:50:00 -0700</pubDate>
+      
+      <guid>/slides/adirondack/</guid>
+      <description>class: title, smokescreen, shelf, no-footer background-image: url(leo-serrat-533922-unsplash.jpg)
+Creating Beautiful Presentations With Remark, Apron, Adirondack, and Descartes The Story Remark Themes Story offers helper themes for creating beautiful presentations with Remark, using simple Markdown to create slide layouts.
+ Apron defines the layouts&amp;rsquo; structure and size. Adirondack adds typography, theme colors, and helpful features. Descartes provides element and image positioning and colors.  Story has a design goal of clean, simple Markdown content.</description>
+    </item>
+    
+  </channel>
+</rss>

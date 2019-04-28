@@ -1,0 +1,77 @@
+# Site settings
+baseurl = "/"
+title = "Patricia Menéndez"
+paginate = 5
+buildFuture = true
+
+enableEmoji = true
+disableKinds = ["RSS"]
+
+# Website's default description
+  defaultDescription = ""
+  defaultKeywords = ["STEM" , "female" , "maths" , "innovation"]
+
+[blackfriday]
+  hrefTargetBlank = true  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
+	angledQuotes = false
+	latexDashes = true
+  extensions = ["backslashLineBreak"]
+  
+
+
+
+
+[[menu.social]]
+  name = "GitHub"
+  title = "fab fa-github-square"
+  url = "https://github.com/okayama1/"
+
+[[menu.social]]
+    name = "Twitter"
+    title = "fab fa-twitter-square"
+    url = "https://twitter.com/PM_maths"
+    
+[[menu.main]]
+   weight = 3
+   name = "About"
+   title = "About"
+   url = "/about/"    
+
+
+
+[[menu.main]]
+  weight = 2
+  name = "Posts"
+  title = "Posts"
+  url = "/posts/"
+
+
+  
+[[menu.main]]
+    weight = 1
+   name = "Homeward Bound"
+   title = "Homeward Bound"
+   url = "/mentoring/"  
+  
+ 
+  
+[params]
+  author = "Patricia Menéndez. Powered by the Story theme for Hugo."
+  twitter = "PM_maths"
+  classes = [] 
+ 
+ 
+ 
+
+[outputs]
+  home = ["HTML", "JSON"]
+  page = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  taxonomyTerm = ["HTML"]
+  
+  
+  
+
+
+ 

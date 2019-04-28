@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Patricia Menendez</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on Patricia Menendez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 30 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Converting to blogdown</title>
+      <link>/talks/blogdown/</link>
+      <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talks/blogdown/</guid>
+      <description>This website has gone through several major updates over the years. It began in 1993 as some handcrafted html files, transitioned to Joomla and later to Wordpress. Then it slowly grew into a collection of ten connected Wordpress installations that became increasingly difficult to maintain, and rather slow.
+So I&amp;rsquo;ve now converted the entire site to Blogdown/Hugo. Nearly 700 pages of wordpress content have been translated to markdown. I decided to drop a few parts of the site, notably the pages for my 1998 forecasting textbook.</description>
+    </item>
+    
+  </channel>
+</rss>

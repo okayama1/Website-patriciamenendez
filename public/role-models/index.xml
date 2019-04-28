@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Role models on Testing</title>
+    <link>/role-models/</link>
+    <description>Recent content in Role models on Testing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="/role-models/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Patricia Menendez</title>
+      <link>/role-models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/role-models/</guid>
+      <description>I am embarking on a &amp;hellip;. Homeward Bound Campaign</description>
+    </item>
+    
+  </channel>
+</rss>

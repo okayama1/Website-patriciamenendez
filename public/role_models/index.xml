@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Role_models on Testing</title>
+    <link>/role_models/</link>
+    <description>Recent content in Role_models on Testing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="/role_models/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Role Models</title>
+      <link>/role_models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/role_models/</guid>
+      <description>I am embarking on a .XXXXXX&amp;hellip; Homeward Bound Campaign</description>
+    </item>
+    
+  </channel>
+</rss>

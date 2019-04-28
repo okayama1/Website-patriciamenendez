@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to my website on Patricia Meneéndez</title>
+    <link>/posts/</link>
+    <description>Recent content in Welcome to my website on Patricia Meneéndez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 08 Apr 2019 16:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Equity and Diversity</title>
+      <link>/posts/figures/</link>
+      <pubDate>Mon, 08 Apr 2019 16:00:00 -0800</pubDate>
+      
+      <guid>/posts/figures/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;According to the &lt;a href=&#34;http://uis.unesco.org/en/topic/women-science&#34; target=&#34;_blank&#34;&gt;UNESCO Institute for Statistics&lt;/a&gt;, &amp;ldquo;Women account for a minority of the world’s researchers&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

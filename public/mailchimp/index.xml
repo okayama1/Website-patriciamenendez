@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Patricia Meneéndez </title>
+		<link>/mailchimp/index.xml</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<author>Patricia Menéndez. Powered by the Story theme for Hugo.</author>
+		<rights>Copyright (c) 2019</rights>
+		<updated>0001-01-01 00:00:00 &#43;0000 UTC</updated>
+		
+		<item>
+			<title>Equity and Diversity</title>
+			<link>/posts/figures/</link>
+			<pubDate>Mon, 08 Apr 2019 16:00:00 -0800</pubDate>
+			<author>Patricia Menéndez. Powered by the Story theme for Hugo.</author>
+			<guid>/posts/figures/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="/posts/myphotos/logo.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>%!s(&lt;nil&gt;)&lt;br&gt;&lt;ul&gt;
+&lt;li&gt;According to the &lt;a href=&#34;http://uis.unesco.org/en/topic/women-science&#34; target=&#34;_blank&#34;&gt;UNESCO Institute for Statistics&lt;/a&gt;, &amp;ldquo;Women account for a minority of the world’s researchers&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;</description>
+		</item>
+		
+		<item>
+			<title>Homeward Bound</title>
+			<link>/mentoring/hb/</link>
+			<pubDate>Mon, 08 Apr 2019 16:00:00 -0500</pubDate>
+			<author>Patricia Menéndez. Powered by the Story theme for Hugo.</author>
+			<guid>/mentoring/hb/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="/mentoring/myphotos/pmg_hb4.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Homeward Bound aims at empowering women for the greater good.&lt;br&gt;&lt;p&gt;I have had the priviledge to be selected together with another 99 women to take part in Homeward Bound. Homeward bound is a groundbreaking leadership program for women with a background in STEMM (Science, Technology, Engineering, Mathematics, and Medicine).&lt;/p&gt;&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>

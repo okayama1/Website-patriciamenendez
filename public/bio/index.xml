@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bios on Patricia Menendez</title>
+    <link>/bio/</link>
+    <description>Recent content in Bios on Patricia Menendez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/bio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My bio 2</title>
+      <link>/bio/adirondack/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/bio/adirondack/</guid>
+      <description>&lt;p&gt;This is a &amp;ldquo;talk&amp;rdquo; page in Story, which is the permanent homepage for a talk
+you&amp;rsquo;ve given at a specific event. It&amp;rsquo;s designed to showcase your appearance by
+bringing together information about the event, along with your slides and extra
+information like a video of your talk. In this way you can build a portfolio of
+your speaking history.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

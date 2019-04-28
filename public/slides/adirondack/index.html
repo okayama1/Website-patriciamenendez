@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Creating Beautiful Presentations with Story</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="/index.xml">
+		<link rel="canonical" href="/slides/adirondack/">
+		
+		<link rel="shortcut icon" type="image/png" href="/apple-touch-icon-precomposed.png">
+		<meta name="description" content="Story&rsquo;s Remark frameworks help you create sophisticated slides with simple, clean Markdown. There are predefined layouts for most presentation needs, beautiful typography and colors, precise image control, and a simple modular way to create custom layouts.">
+		
+		<meta name="generator" content="Hugo 0.54.0" />
+
+		
+		<meta property="og:title" content="Creating Beautiful Presentations with Story" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="/slides/adirondack/leo-serrat-533922-unsplash.jpg" />
+		<meta property="og:description" content="Story&rsquo;s Remark frameworks help you create sophisticated slides with simple, clean Markdown. There are predefined layouts for most presentation needs, beautiful typography and colors, precise image control, and a simple modular way to create custom layouts." />
+		<meta property="og:url" content="/slides/adirondack/" />
+		<meta property="og:site_name" content="Creating Beautiful Presentations with Story" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="/css/tachyons.min.css" />
+		<link rel="stylesheet" href="/css/story.css" />
+		<link rel="stylesheet" href="/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.9.0/dist/katex.min.css" integrity="sha384-TEMocfGvRuD1rIAacqrknm5BQZ7W7uWitoih+jMNFXQIbNl16bO8OZmylH/Vi/Ei" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/katex@0.9.0/dist/katex.min.js" integrity="sha384-jmxIlussZWB7qCuB+PgKG1uLjjxbVVIayPJwi6cG6Zb4YKq0JIw+OMnkkEC7kYCq" crossorigin="anonymous"></script>
+		<script src="/js/auto-render.min.js"></script> <script src="/js/abcjs_basic_5.6.3-min.js"></script>
+		<script src="/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-posts page-kind-page is-page-true  feature-math feature-qrcode feature-nohighlight feature-music">
+		
+		<header class="cover bg-top" style="background-image: url('/slides/adirondack/leo-serrat-533922-unsplash.jpg'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="/" title="Home">
+						<img src="/img/logo.jpg" class="w2 h2 br-100" alt="Patricia Meneéndez" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/about/">About</a>
+						<a class="link f5 ml2 dim near-white" href="/mentoring/">Mentoring</a>
+						<a class="link f5 ml2 dim near-white" href="/posts/">Posts</a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/okayama1/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/PM_maths"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Creating Beautiful Presentations with Story</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								
+								<span class="display-print">by </span>
+								
+								<span class="display-print">at /slides/adirondack/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	
+
+<p>class: title, smokescreen, shelf, no-footer
+background-image: url(leo-serrat-533922-unsplash.jpg)</p>
+
+<h1 id="creating-beautiful-presentations">Creating Beautiful Presentations</h1>
+
+<h3 id="with-remark-apron-adirondack-and-descartes">With Remark, Apron, Adirondack, and Descartes</h3>
+
+<hr />
+
+<h1 id="the-story-remark-themes">The Story Remark Themes</h1>
+
+<p><a href="https://github.com/xaprb/story" target="_blank">Story</a> offers helper themes for creating
+beautiful presentations with <a href="https://remarkjs.com/" target="_blank">Remark</a>, using simple
+Markdown to create slide layouts.</p>
+
+<ul>
+<li>Apron defines the layouts&rsquo; structure and size.</li>
+<li>Adirondack adds typography, theme colors, and helpful features.</li>
+<li>Descartes provides element and image positioning and colors.</li>
+</ul>
+
+<p>Story has a design goal of clean, simple Markdown content. Avoiding &ldquo;raw&rdquo; HTML
+and Remark&rsquo;s Markdown extensions makes things easier.
+View the source of this page to see the Markdown that creates it.</p>
+
+<p>These characteristics make it easy to build gorgeous slideshows. They&rsquo;re also
+a great foundation for creating your own themes.</p>
+
+<hr />
+
+<h1 id="what-is-remark">What is Remark?</h1>
+
+<p>Remark (sometimes called RemarkJS) is a browser-based slideshow system. It&rsquo;s
+simple but surprisingly powerful:</p>
+
+<ul>
+<li>You write slides in simple Markdown</li>
+<li>It supports a presenter mode, slide notes, and dual monitors</li>
+<li>It supports slide layouts, templates, and incremental slides</li>
+<li>It&rsquo;s easy to extend and customize with simple CSS</li>
+</ul>
+
+<p>Story integrates Remark into Hugo, creating a live-reload editing experience,
+and a permanent home for your slides on your own website!</p>
+
+<p>View this page&rsquo;s source to see how easily you can compose slideshows
+with Remark.</p>
+
+<hr />
+
+<p>name: getting-started</p>
+
+<h1 id="getting-started">Getting Started</h1>
+
+<p>To get started, use <code>hugo new slides/my-presentation.md</code> and ensure that the
+following <code>themes</code> are in the front matter, for example:</p>
+
+<pre><code class="language-yaml">---
+title: 'Creating Beautiful Presentations with Story'
+date: &quot;2018-04-25T09:50:00-07:00&quot;
+url: &quot;/slides/adirondack/&quot;
+ratio: &quot;16:9&quot;
+themes:
+- apron
+- descartes
+- adirondack
+</code></pre>
+
+<hr />
+
+<p>class: compact</p>
+
+<h1 id="apron-s-slide-layouts">Apron&rsquo;s Slide Layouts</h1>
+
+<p>It&rsquo;s easy to create common slide layouts with Remark&rsquo;s slide classes.</p>
+
+<p><img src="slide-layouts.svg# maxw-70pct center" alt="Slide Layouts" /></p>
+
+<hr />
+
+<p>class: img-right</p>
+
+<h1 id="heading-content-and-image">Heading, Content, and Image</h1>
+
+<p><img src="leo-serrat-533922-unsplash.jpg" alt="Yosemite" /></p>
+
+<p>This is the <code>img-right</code> slide class. The content consists simply of a
+header, an image, and this text.</p>
+
+<ul>
+<li>The image&rsquo;s aspect ratio and cropping are not altered.</li>
+<li>All content after the image goes in the lefthand column.</li>
+</ul>
+
+<p>Although this text is in the lefthand column, the image comes <em>first</em> in the
+markdown source.</p>
+
+<hr />
+
+<p>class: img-left</p>
+
+<h1 id="heading-image-and-content">Heading, Image, and Content</h1>
+
+<p><img src="leo-serrat-533922-unsplash.jpg" alt="Yosemite" /></p>
+
+<p>This is the <code>img-left</code> slide class. The content is structured in just the same
+way as the <code>img-right</code> slide class.</p>
+
+<ul>
+<li>All content after the image goes in the right-hand column.</li>
+</ul>
+
+<p>&ndash;
+- These columns require no wrapper <code>&lt;div&gt;</code>, just plain Markdown.
+- This avoids interference with Remark features.</p>
+
+<p>&ndash;
+- Incremental builds with <code>--</code> work fine, for example.</p>
+
+<hr />
+
+<p>class: img-right-full</p>
+
+<p><img src="kari-shea-272383-unsplash.jpg" alt="" /></p>
+
+<h1 id="content-and-image">Content and Image</h1>
+
+<p>This is the <code>img-right-full</code> class.  The content is simply an image and text
+(including a header in this case).</p>
+
+<p>The image is 2x larger than the visible area and its position is set to <code>left</code>.
+This lets you pair this layout with the following one.</p>
+
+<ul>
+<li>A red flare silhouetted the jagged edge of a wing.</li>
+<li>Almost before we knew it, we had left the ground.</li>
+</ul>
+
+<hr />
+
+<p>class: img-left-full</p>
+
+<p><img src="kari-shea-272383-unsplash.jpg" alt="" /></p>
+
+<h1 id="the-other-side-of-the-coin">The Other Side of the Coin</h1>
+
+<p>This slide&rsquo;s class is <code>img-left-full</code>. Like the previous slide, it&rsquo;s just an
+image and some content. The image is exactly the same as the previous slide, but
+it&rsquo;s positioned to reveal the other half.</p>
+
+<ul>
+<li>All their equipment and instruments are alive.</li>
+<li>I watched the storm, so beautiful yet terrific.</li>
+<li>Almost before we knew it, we had left the ground.</li>
+</ul>
+
+<hr />
+
+<p>class: img-caption
+<img src="will-turner-508747-unsplash.jpg" alt="Image" /></p>
+
+<p>This slide&rsquo;s class is <code>img-caption</code>. Its content is simply an image and this
+text.</p>
+
+<hr />
+
+<p>class: col-2</p>
+
+<h1 id="two-column-layouts">Two-Column Layouts</h1>
+
+<p>This is a two-column layout, created with <code>class: col-2</code>.
+There&rsquo;s no columnar markup (no DIVs, for example) in the content.</p>
+
+<p><img src="leo-serrat-533922-unsplash.jpg# mw-90 center" alt="" /></p>
+
+<p>The columns are created natively in CSS. The first H1 spans all columns.</p>
+
+<blockquote>
+<p>Relaxing in the Adirondack chair, I felt the gathering dusk creep on kitten
+feet.  It came to me, then, that a day lived in this paradise was better than a
+lifetime anywhere else.</p>
+</blockquote>
+
+<ul>
+<li>I watched the storm, so beautiful yet terrific.</li>
+</ul>
+
+<hr />
+
+<p>class: col-3</p>
+
+<h1 id="three-column-layouts">Three-Column Layouts</h1>
+
+<p>This is a three-column layout, created with <code>class: col-3</code>.</p>
+
+<p>As with <code>col-2</code>, Apron assumes the slide begins with an H1 header.</p>
+
+<p>Mist enveloped the ship three hours out from port.</p>
+
+<p><img src="tanya-nevidoma-632010-unsplash.jpg# mw-90" alt="" /></p>
+
+<ul>
+<li>My two natures had memory in common.</li>
+<li>The face of the moon was in shadow.</li>
+</ul>
+
+<p>Call me Ishmael. Some years ago&mdash;never mind how long precisely&mdash;having little or
+no money in my purse, and nothing particular to interest me on shore, I thought
+I would sail about a little and see the watery part of the world.</p>
+
+<hr />
+
+<h1 id="apron-s-layout-classes">Apron&rsquo;s Layout Classes</h1>
+
+<p>Here are the Apron slide layouts classes and how to use them:</p>
+
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Content structuring guidelines</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>title</td>
+<td>Add a background-image, H1, and optional H2/H3.</td>
+</tr>
+
+<tr>
+<td>img-caption</td>
+<td>Add an image and optional caption text.</td>
+</tr>
+
+<tr>
+<td>img-right, img-left</td>
+<td>Add a header, image, and content.</td>
+</tr>
+
+<tr>
+<td>img-right-full, img-left-full</td>
+<td>Add an image, <em>then</em> headers and content.</td>
+</tr>
+
+<tr>
+<td>col-2, col-3</td>
+<td>Add a header, then any content desired.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<p>class: compact</p>
+
+<h1 id="a-compact-slide">A Compact Slide</h1>
+
+<p>This slide&rsquo;s class is <code>compact</code>, which reduces font sizes, line heights, and
+slide padding.  This makes it possible to fit more content on the slide, which
+can be useful.</p>
+
+<ul>
+<li>I watched the storm, so beautiful yet terrific.</li>
+<li>Almost before we knew it, we had left the ground.</li>
+</ul>
+
+<pre><code class="language-javascript">function $initHighlight(block, cls) {
+	if (cls.search(/\bno\-highlight\b/) != -1)
+		return process(block, true, 0x0F) + ` class=&quot;${cls}&quot;`;
+	for (var i = 0 / 2; i &lt; classes.length; i++) {
+		if (checkCondition(classes[i]) === undefined)
+			console.log('undefined');
+	}
+}
+</code></pre>
+
+<hr />
+
+<p>class: compact, col-3</p>
+
+<h1 id="compact-three-column-layout">Compact Three-Column Layout</h1>
+
+<p>This is a three-column layout,
+created with <code>class: col-3, compact</code>.</p>
+
+<p>The <code>compact</code> class works well three columns, which have less room.</p>
+
+<p><img src="tanya-nevidoma-632010-unsplash.jpg# maxw-90pct" alt="" /></p>
+
+<p>A shining crescent far beneath the flying vessel.</p>
+
+<ul>
+<li>It was going to be a lonely trip back.</li>
+<li>Mist enveloped the ship three hours out from port.</li>
+<li>My two natures had memory in common.</li>
+<li>Silver mist suffused the deck of the ship.</li>
+<li>The face of the moon was in shadow.</li>
+</ul>
+
+<p>Call me Ishmael. Some years ago&mdash;never mind how long precisely&mdash;having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.</p>
+
+<hr />
+
+<p>class: roomy</p>
+
+<h1 id="a-roomy-slide">A Roomy Slide</h1>
+
+<p>This slide doesn&rsquo;t have as much content, so I gave it the class <code>roomy</code> to let
+its content stretch out a bit for readability.</p>
+
+<ul>
+<li>A red flare silhouetted the jagged edge of a wing.</li>
+<li>I watched the storm, so beautiful yet terrific.</li>
+<li>Almost before we knew it, we had left the ground.</li>
+<li>All their equipment and instruments are alive.</li>
+</ul>
+
+<hr />
+
+<p>class: roomy, col-2</p>
+
+<h1 id="room-for-two-columns">Room For Two Columns</h1>
+
+<p>This roomy slide has two columns: <code>class: roomy, col-2</code>. Bulleted lists
+shouldn&rsquo;t break across columns.</p>
+
+<ul>
+<li>A red flare silhouetted the jagged edge of a wing.</li>
+<li>I watched the storm, so beautiful yet terrific.</li>
+<li>Almost before we knew it, we had left the ground.</li>
+<li>All their equipment and instruments are alive.</li>
+</ul>
+
+<hr />
+
+<p>class: compact</p>
+
+<h1 id="apron-s-auxiliary-classes">Apron&rsquo;s Auxiliary Classes</h1>
+
+<p>Apron offers the following additional slide classes:</p>
+
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Applies To</th>
+<th>Content structuring guidelines</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>top</td>
+<td>title</td>
+<td>Moves the title and subtitle to the top of the slide.</td>
+</tr>
+
+<tr>
+<td>bottom</td>
+<td>title</td>
+<td>Moves the title and subtitle to the bottom.</td>
+</tr>
+
+<tr>
+<td>shelf</td>
+<td>title</td>
+<td>Extends the title&rsquo;s background and locates the subtitle above it.</td>
+</tr>
+
+<tr>
+<td>compact</td>
+<td>(all)</td>
+<td>Reduces text size and margins to fit more content.</td>
+</tr>
+
+<tr>
+<td>roomy</td>
+<td>(all)</td>
+<td>Increases text size to fill more space.</td>
+</tr>
+
+<tr>
+<td>fullbleed</td>
+<td>(all)</td>
+<td>Removes margins from the slide and its text.</td>
+</tr>
+
+<tr>
+<td>no-footer</td>
+<td>(all)</td>
+<td>Hides the footer (including slide number).</td>
+</tr>
+
+<tr>
+<td>debug</td>
+<td>(all)</td>
+<td>Outlines elements in gold to make formatting visible. Variants: -white and -black.</td>
+</tr>
+
+<tr>
+<td>debug-grid</td>
+<td>(all)</td>
+<td>Displays a layout grid. Variants: -8, -16, -solid, and combinations of these.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<p>class: title, fogscreen
+background-image: url(tanya-nevidoma-632010-unsplash.jpg)</p>
+
+<h1 id="adirondack-s-typography-and-features">Adirondack&rsquo;s Typography and Features</h1>
+
+<hr />
+
+<h1 id="adirondack">Adirondack</h1>
+
+<p>Adirondack is built on top of Apron, and adds beautiful typography, colors, and
+extra features. This section is a demo and documentation of those features.</p>
+
+<h1 id="heading-level-1">Heading Level 1</h1>
+
+<h2 id="heading-level-2">Heading Level 2</h2>
+
+<h3 id="heading-level-3">Heading Level 3</h3>
+
+<p>Text with <em>italics</em>, <strong>bold</strong>, <del>strikethrough</del>, <code>&lt;code&gt;</code>,
+<a href="https://www.wikipedia.org/" target="_blank">link</a>.</p>
+
+<hr />
+
+<p>class: col-2</p>
+
+<h1 id="bulleted-lists-demo">Bulleted Lists Demo</h1>
+
+<p>This column illustrates bulleted lists.</p>
+
+<ul>
+<li>A bulleted list.</li>
+<li>Another bullet.
+
+<ul>
+<li>Nested bullets.</li>
+<li>Another.
+
+<ul>
+<li>Deeply nested.</li>
+</ul></li>
+</ul></li>
+<li>Back to the top-level again.</li>
+</ul>
+
+<p>This column has numbered lists.</p>
+
+<ol>
+<li>Another bullet.</li>
+<li>The last bullet.
+
+<ol>
+<li>Nested numbered lists.</li>
+<li>Another.
+
+<ol>
+<li>Deeper.</li>
+</ol></li>
+</ol></li>
+<li>Top-level again.</li>
+</ol>
+
+<hr />
+
+<h1 id="code-typography-demo">Code Typography Demo</h1>
+
+<p>Remark offers <a href="https://highlightjs.org/" target="_blank">HighlightJS</a> code syntax highlighting.
+Story enables/disables this with <a href="/features/">feature flags</a>.</p>
+
+<pre><code class="language-javascript">function $initHighlight(block, cls) {
+	if (cls.search(/\bno\-highlight\b/) != -1)
+		return process(block, true, 0x0F) + ` class=&quot;${cls}&quot;`;
+	for (var i = 0 / 2; i &lt; classes.length; i++) {
+		if (checkCondition(classes[i]) === undefined)
+			console.log('undefined');
+	}
+}
+</code></pre>
+
+<hr />
+
+<p>class: col-2</p>
+
+<h1 id="math-typesetting">Math Typesetting</h1>
+
+<p>Story supports math equation typesetting using the KaTeX library,
+if <a href="/math/"><code>feature-math</code></a> is enabled.</p>
+
+<p>\[
+\left( \beta mc^2 + c \left ( \sum_{n=1}^3 \alpha_n p_n \right ) \right) \psi(x,t) = i \hbar \frac{\partial \psi(x,t) }{\partial t}
+\]</p>
+
+<p>The coherence is the \(\kappa\) coefficient of \(n^2\),
+which is \(e^{i\pi}-1=0\).</p>
+
+<p>\[
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]</p>
+
+<p><img src="linear3.svg" alt="Universal Scalability Law" /></p>
+
+<p>You can also display equations inline, such as the quadratic equation, which is
+\(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\)</p>
+
+<hr />
+
+<p>class: compact</p>
+
+<h1 id="music-notation-and-sheet-music">Music Notation and Sheet Music</h1>
+
+<p>Story supports <a href="/music">formatting sheet music from ABC</a>.</p>
+
+<pre><code class="language-abc">X: 1
+T: Cooley's
+M: 4/4
+L: 1/8
+K: Emin
+|:D2|EB{c}BA B2 EB|~B2 AB dBAG|FDAD BDAD|FDAD dAFD|
+EBBA B2 EB|B2 AB defg|afe^c dBAF|DEFD E2:|
+</code></pre>
+
+<hr />
+
+<p>class: fit-h1, roomy</p>
+
+<h1 id="this-slide-has-a-very-long-multi-line-heading-that-has-been-shrunk">This Slide Has A Very Long Multi-Line Heading That Has Been Shrunk</h1>
+
+<p>The <code>fit-h1</code> slide class will automatically shrink the first H1 heading until it
+fits on a single line.</p>
+
+<p>This doesn&rsquo;t work on title slides.</p>
+
+<p>Story also applies 6&rsquo;2&rdquo; tall &ldquo;smartypants&rdquo; processing to replace &lsquo;straight
+quotes,&rsquo; en- and em-dashes (boil for 12&ndash;15 minutes&mdash;longer if needed),
+and ellipses with their nicer typographical equivalents&hellip; isn&rsquo;t that nice?</p>
+
+<hr />
+
+<h1 id="share-your-slides-with-qr-codes">Share Your Slides With QR Codes</h1>
+
+<p>.qrcode.db.fr.w-40pct.ml-4[]</p>
+
+<p>Adirondack has built-in support for QR codes to share your slides easily. No
+more emailing links or files! Your audience can simply snap a picture of the
+screen.</p>
+
+<p>Just enable the <code>feature-qrcode</code> <a href="/features/">flag</a> and add markup like the
+following to your slide:</p>
+
+<pre><code>.qrcode.db.fr.w-40pct.ml-4[]
+</code></pre>
+
+<p>The <code>qrcode</code> class is important but the rest is up to you.</p>
+
+<hr />
+
+<h1 id="export-your-slides-to-pdfs">Export Your Slides To PDFs</h1>
+
+<p>Remark has support for printing slides to a PDF, using Google Chrome&rsquo;s print
+dialog (not the native system dialog).</p>
+
+<p>There are some bugs in it&hellip; but Story implements workarounds so you don&rsquo;t even
+need to think about it.</p>
+
+<p>Just print with Chrome and save to a PDF file.</p>
+
+<p>This works for both 16:9 and 4:3 ratio slides. Speaking of which, you select
+that with the <code>ratio</code> in the front matter, as shown on the <a href="#getting-started">getting
+started</a> slide.</p>
+
+<hr />
+
+<p>layout: true</p>
+
+<p>.footer[
+- @xaprb
+- <img src="vividcortex-horizontal-web.svg" alt="logo" />
+]</p>
+
+<hr />
+
+<p>class: compact</p>
+
+<h1 id="footer-content">Footer Content</h1>
+
+<p>This slide builds on content from the previous (hidden, layout) slide, whose
+content is:</p>
+
+<pre><code>---
+layout: true
+.footer[
+- @xaprb
+- ![logo](vividcortex-horizontal-web.svg)
+]
+</code></pre>
+
+<p>This content uses Adirondack&rsquo;s built-in <code>footer</code> css styling to define footer
+elements. You can see them at the bottom of this slide. In the next section,
+you&rsquo;ll learn Descartes classes you can add
+to the div to style it, e.g. <code>.footer.bt.bc-cornflower[...]</code>.</p>
+
+<p>You can hide both the Remark and custom footer on any slide with <code>class: no-footer</code>.</p>
+
+<hr />
+
+<p>layout: false</p>
+
+<h1 id="adirondack-s-slide-classes">Adirondack’s Slide Classes</h1>
+
+<p>Here are Adirondack&rsquo;s slide classes:</p>
+
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>smokescreen</code></td>
+<td>Creates a dark shaded semi-transparent background on <code>title</code> slides.</td>
+</tr>
+
+<tr>
+<td><code>fogscreen</code></td>
+<td>Similar to <code>smokescreen</code>, but uses a white shading.</td>
+</tr>
+
+<tr>
+<td><code>fit-h1</code></td>
+<td>Shrinks the H1 heading&rsquo;s font-size to fit on a single line.</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<p>class: title, smokescreen, shelf
+background-image: url(will-turner-508747-unsplash.jpg)</p>
+
+<h1 id="positioning-images-and-elements">Positioning Images And Elements</h1>
+
+<h2 id="using-descartes-to-create-intricate-layouts">Using Descartes To Create Intricate Layouts</h2>
+
+<hr />
+
+<h1 id="descartes-styling-functionality">Descartes&rsquo; Styling Functionality</h1>
+
+<p>Descartes is an add-on that gives lots of power over image and element formatting with
+Markdown.  It uses composable, functional pseudo-classes in the image&rsquo;s URL
+fragment (the part after the <code>#</code> character). For example, this image will be 33% width,
+display as block, 2rem right margin, and float left:</p>
+
+<pre><code>![Image](tom-barrett-364228-unsplash.jpg# w-33pct db fl mr-4)
+</code></pre>
+
+<p><img src="tom-barrett-364228-unsplash.jpg# w-33pct db fl mr-4" alt="Image" /></p>
+
+<p>That URL has four &ldquo;words&rdquo; in the fragment, delimited by whitespace. The
+whitespace is important!</p>
+
+<p>Image classes are also available for <code>&lt;div&gt;</code>s.</p>
+
+<hr />
+
+<p>class: center</p>
+
+<p>This image collage has no &ldquo;raw&rdquo; markup or Remark <code>&lt;div&gt;</code> extensions. The next
+slide illustrates Descartes&rsquo;s grid of 12ths.</p>
+
+<p><img src="kari-shea-272383-unsplash.jpg# l-0 t-20pct w-two-thirds h-80pct ofv absolute" alt="" />
+<img src="leo-serrat-533922-unsplash.jpg# w-third h-40pct t-20pct r-0 ofv absolute" alt="" />
+<img src="will-turner-508747-unsplash.jpg# w-third h-40pct t-60pct r-0 ofv absolute" alt="" /></p>
+
+<hr />
+
+<p>class: fullbleed
+background-color: black</p>
+
+<p><img src="kari-shea-272383-unsplash.jpg# absolute ofv w-9-12th h-7-12th" alt="" />
+<img src="leo-serrat-533922-unsplash.jpg# absolute ofv w-3-12th h-3-12th t-0 l-9-12th" alt="" />
+<img src="nasa-53884-unsplash.jpg# absolute ofv w-2-12th h-9-12th t-3-12th l-9-12th" alt="" />
+<img src="tom-barrett-364228-unsplash.jpg# absolute ofv w-1-12th h-5-12th t-3-12th l-11-12th" alt="" />
+<img src="will-turner-508747-unsplash.jpg# absolute ofv w-1-12th h-4-12th t-8-12th l-11-12th opr" alt="" />
+<img src="tanya-nevidoma-632010-unsplash.jpg# absolute ofv w-5-12th h-5-12th t-7-12th l-0" alt="" />
+<img src="tom-barrett-364228-unsplash.jpg# absolute ofv w-4-12th h-3-12th t-7-12th l-5-12th" alt="" />
+<img src="will-turner-508747-unsplash.jpg# absolute ofv w-4-12th h-2-12th t-10-12th l-5-12th" alt="" /></p>
+
+<p>.absolute.w-7-12th.pa-3.l-1-12th.t-20pct.ba.bw-4.br-4.bg-white-60pct[
+This slide is composed only of simple Markdown markup, no raw HTML.
+]</p>
+
+<hr />
+
+<h1 id="using-descartes-coordinate-grids">Using Descartes&rsquo; Coordinate Grids</h1>
+
+<p>Descartes offers several length scales for element sizes and positions. For
+each, a class naming convention selects the value:</p>
+
+<ul>
+<li>rems, from 1 rem (-1) to 96rem (-9)</li>
+<li>tenths, in 10% increments from -10pct to -100pct, plus -33pct, -34pct, and -75pct</li>
+<li>twelfths, in 1/12th increments from -1-12th to -11-12th</li>
+<li>thirds, as -third and -two-thirds</li>
+</ul>
+
+<p>There&rsquo;s always a prefix that specifies what the item is, and a suffix that
+selects the units.  So for example, if you want an element to have a width of
+50%, you can give it a class of <code>w-50pct</code>, and if you want it to be 25% width
+you can use <code>w-3-12th</code>.</p>
+
+<hr />
+
+<p>class: col-2</p>
+
+<h1 id="descartes-coordinate-selectors">Descartes&rsquo; Coordinate Selectors</h1>
+
+<p>You can apply the length scales from the previous slide to a variety of element
+properties (see right). The X can be any of the suffixes discussed on the
+previous slide.</p>
+
+<p>These can be applied as classes to a DIV, or image pseudo-classes:</p>
+
+<pre><code>.w-50pct.h-1-12th.t-0.l-50pct[....]
+![img](pic.jpg# w-50pct h-1-12th t-0 l-50pct)
+</code></pre>
+
+<ul>
+<li>w-X: width</li>
+<li>maxw-X: max-width</li>
+<li>minw-X: min-width</li>
+<li>h-X: height</li>
+<li>maxh-X: max-height</li>
+<li>minh-X: min-height</li>
+<li>t-X: top</li>
+<li>r-X: right</li>
+<li>b-X: bottom</li>
+<li>l-X: left</li>
+</ul>
+
+<hr />
+
+<h1 id="descartes-other-features">Descartes&rsquo; Other Features</h1>
+
+<p>Descartes also has classes to control color (text, border, background,
+transparency), opacity, borders (sides, width, radius), spacing (padding,
+margin), centering, display types, floats, clearfix, position types, background
+image fitting and positioning, and box shadows.</p>
+
+<p>For many of these, there&rsquo;s a set of units and sizing scales.</p>
+
+<p>These cannot be documented fully in this slideshow, but hopefully it gives you a
+sense of what&rsquo;s possible. You should read the <code>.less</code> files; they are short and
+easy to understand.</p>
+
+<hr />
+
+<h1 id="where-did-the-names-come-from">Where Did The Names Come From?</h1>
+
+<p>For some reason, I named my Remark slideshow layouts after iconic chair designs
+(Monobloc, Adirondack, etc).</p>
+
+<p><img src="chair-parts.png# fr ml-2" alt="Chair parts" /></p>
+
+<p>The apron is the part of the chair upon which everything rests, so I gave the
+underlying &ldquo;supporting&rdquo; set of CSS that name. I named Descartes after the famous
+inventor of the Cartesian coordinate system.</p>
+
+<p>Credit: <a href="http://www.props.eric-hart.com/" target="_blank">http://www.props.eric-hart.com/</a></p>
+
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<blockquote>
+<p><img src="/img/pmg.jpg" alt="Patricia Menendez" /></p>
+
+<p><strong>Email:</strong> patricia.menendezhb4@gmail.com
+<ul class="fa-ul">
+  <li><a href="https://scholar.google.com/citations?user=6ynCG1MAAAAJ&hl=en"><i class="fa-li ai ai-google-scholar" style="padding-top:3px;"></i>Google Scholar</a></li>
+</ul></p>
+</blockquote>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2019 
+			</p>
+		</footer>
+		
+	
+	
+	</body>
+</html>

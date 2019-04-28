@@ -1,0 +1,15 @@
+{{- $hdr := cond (or (in .Site.Params.classes "feature-nohdr") (in .Params.classes "feature-nohdr")) false true -}}
+{{ if $hdr }}
+{{ end }}
+{{- if eq .Section "talks" }}{{ .Params.event }}: {{ end -}} {{- cond (eq .Site.Params.titlecase true) (.Title | title | markdownify) (.Title | markdownify) -}}
+
+{{ if eq .Section "slides" }} {{ .Description | markdownify }}
+View Slideshow
+
+{{ else if eq .Section "talks" }} {{ .Summary }}
+Talk Details
+
+{{ else }} {{ .Summary }}
+Continue Reading
+
+{{ end }}
