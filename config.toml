@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "www.patriciamenendez.com/"
+baseurl = "/"
 title = "Patricia Menéndez"
 paginate = 5
 buildFuture = true
