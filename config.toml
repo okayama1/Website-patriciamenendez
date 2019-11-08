@@ -38,20 +38,18 @@ disableKinds = ["RSS"]
    url = "/about/"    
 
 
-
-[[menu.main]]
-  weight = 2
-  name = "Posts"
-  title = "Posts"
-  url = "/posts/"
-
-
   
 [[menu.main]]
     weight = 1
    name = "Homeward Bound"
    title = "Homeward Bound"
-   url = "/mentoring/"  
+   url = "/hb/"  
+   
+[[menu.main]]
+    weight = 1
+   name = "Where maths and stats can take you?!"
+   title = "Where maths and stats can take you?!"
+   url = "/maths_stats/"     
   
  
   
